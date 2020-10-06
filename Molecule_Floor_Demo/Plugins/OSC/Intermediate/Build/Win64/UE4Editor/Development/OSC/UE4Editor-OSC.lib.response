@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-OSC.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\PCH.OSC.h.obj"
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.cpp.obj"
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp.obj"
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Default.rc2.res"
+/OUT:"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.lib"
+/INCLUDE:IMPLEMENT_MODULE_OSC

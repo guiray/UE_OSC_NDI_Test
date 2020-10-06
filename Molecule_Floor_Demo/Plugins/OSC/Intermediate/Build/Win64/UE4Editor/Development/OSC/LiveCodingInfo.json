@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OSC.cpp.obj": [
+			"OscOutboundPacketStream.cpp.obj",
+			"OscReceivedElements.cpp.obj",
+			"OscTypes.cpp.obj",
+			"OscModule.cpp.obj",
+			"OscSettings.cpp.obj",
+			"OscDispatcher.cpp.obj",
+			"OscReceiverInputKey.cpp.obj",
+			"OscFunctionLibrary.cpp.obj",
+			"OscReceiverActor.cpp.obj",
+			"OscReceiverComponent.cpp.obj"
+		],
+		"Module.OSC.gen.cpp.obj": [
+			"OSC.init.gen.cpp.obj",
+			"OscDataElemStruct.gen.cpp.obj",
+			"OscDispatcher.gen.cpp.obj",
+			"OscFunctionLibrary.gen.cpp.obj",
+			"OscMessageStruct.gen.cpp.obj",
+			"OscReceiverActor.gen.cpp.obj",
+			"OscReceiverComponent.gen.cpp.obj",
+			"OscSettings.gen.cpp.obj"
+		]
+	}
+}

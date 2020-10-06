@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Molecule_Floor_Demo.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{602870F3-EDB5-4D36-969D-4DD4C1FBE617}</UniqueIdentifier>
+      <UniqueIdentifier>{17648FFA-6A94-451F-823C-E0837FB5A26C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Molecule_Floor_Demo.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{282B4B6C-7AFA-4E00-8A79-5A71BE94B052}</UniqueIdentifier>
+      <UniqueIdentifier>{4A116929-7F63-4199-A0F5-7955B94FAD7C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -36,13 +36,136 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{F25388DB-19FE-4139-985B-21AC5EBC512C}</UniqueIdentifier>
+      <UniqueIdentifier>{45B32460-A5C8-4A55-A314-AE99C2D91694}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{F5EE3ACA-FCAA-47D8-BFE0-50FCC5006920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC">
+      <UniqueIdentifier>{5279B87F-ABC8-48AF-BA96-B2731D72DDE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source">
+      <UniqueIdentifier>{3AB2E4A5-85D1-4866-835E-56F4A2E049F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC">
+      <UniqueIdentifier>{A0B19524-191E-475E-B349-65C6AA6FDE72}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OSC\Source\OSC\OSC.Build.cs">
+      <Filter>Plugins\OSC\Source\OSC</Filter>
+    </None>
+    <Filter Include="Plugins\OSC\Source\OSC\Private">
+      <UniqueIdentifier>{5C4D78F3-C5A4-4293-80C2-5AB9E0B0D0A0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscModule.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscPrivatePCH.h">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.h">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common">
+      <UniqueIdentifier>{82B63D91-E27C-49F6-BBCB-3443A0AAB61D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack">
+      <UniqueIdentifier>{AB1ECC34-9ABE-42D9-96DE-D9A5DC1290C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack\osc">
+      <UniqueIdentifier>{CE05084B-AB14-4EC0-ACBA-91A716609F0C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscHostEndianness.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Receive">
+      <UniqueIdentifier>{A1AFCF59-47BC-4D1A-8699-92DD37667B72}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public">
+      <UniqueIdentifier>{006FE173-2D69-4793-864E-C513717F0D56}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Osc.h">
+      <Filter>Plugins\OSC\Source\OSC\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public\Common">
+      <UniqueIdentifier>{E6235887-178F-42CE-9C0C-F972F536FD90}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscDataElemStruct.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscMessageStruct.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public\Receive">
+      <UniqueIdentifier>{7F4A8D72-5CFE-4F42-95B5-2378AEBB1D15}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverInterface.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\OSC\OSC.uplugin">
+      <Filter>Plugins\OSC</Filter>
+    </None>
+    <Filter Include="Plugins\OSC\Resources">
+      <UniqueIdentifier>{D81A9C4E-E56F-479B-9663-3BE9A6FDC5AD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OSC\Resources\Icon128.png">
+      <Filter>Plugins\OSC\Resources</Filter>
+    </None>
     <Filter Include="Source\Molecule_Floor_Demo">
-      <UniqueIdentifier>{78FC6425-7BD7-4C29-BF3C-F4DB6A52B663}</UniqueIdentifier>
+      <UniqueIdentifier>{D4D5122C-140B-4C09-8570-8ADE7AE8BA2E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Molecule_Floor_Demo\Molecule_Floor_Demo.Build.cs">
       <Filter>Source\Molecule_Floor_Demo</Filter>
