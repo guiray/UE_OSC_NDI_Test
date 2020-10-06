@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Molecule_Floor_Demo",
+			"Path": "D:\\Documents\\GitHub\\SAT_molecule_unreal_OSC_NDI_Test\\Molecule_Floor_Demo\\Source\\Molecule_Floor_Demo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Molecule_Floor_DemoEditor",
+			"Path": "D:\\Documents\\GitHub\\SAT_molecule_unreal_OSC_NDI_Test\\Molecule_Floor_Demo\\Source\\Molecule_Floor_DemoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

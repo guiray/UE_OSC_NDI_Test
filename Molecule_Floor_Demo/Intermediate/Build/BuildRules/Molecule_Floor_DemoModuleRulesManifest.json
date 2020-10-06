@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Documents\\GitHub\\SAT_molecule_unreal_OSC_NDI_Test\\Molecule_Floor_Demo\\Source\\Molecule_Floor_Demo\\Molecule_Floor_Demo.Build.cs",
+		"D:\\Documents\\GitHub\\SAT_molecule_unreal_OSC_NDI_Test\\Molecule_Floor_Demo\\Source\\Molecule_Floor_Demo.Target.cs",
+		"D:\\Documents\\GitHub\\SAT_molecule_unreal_OSC_NDI_Test\\Molecule_Floor_Demo\\Source\\Molecule_Floor_DemoEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Molecule_Floor_Demo.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Intermediate\Build\Win64\Molecule_Floor_DemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Intermediate\Build\Win64\UE4Editor\Development\Molecule_Floor_Demo\Molecule_Floor_Demo.cpp.obj"
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Intermediate\Build\Win64\UE4Editor\Development\Molecule_Floor_Demo\MyClass.cpp.obj"
+"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Intermediate\Build\Win64\UE4Editor\Development\Molecule_Floor_Demo\Default.rc2.res"
+/OUT:"D:\Documents\GitHub\SAT_molecule_unreal_OSC_NDI_Test\Molecule_Floor_Demo\Intermediate\Build\Win64\UE4Editor\Development\Molecule_Floor_Demo\UE4Editor-Molecule_Floor_Demo.lib"
+/INCLUDE:IMPLEMENT_MODULE_Molecule_Floor_Demo
